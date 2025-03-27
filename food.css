@@ -26,4 +26,9 @@ img {
     margin: 0 auto;
     width: 250px;
     grid-column: 2;
+    transition: transform .5s;
+}
+
+img:hover{
+    transform: scale(2,2);
 }
